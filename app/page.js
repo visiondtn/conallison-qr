@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <main className="flex items-center justify-center min-h-screen bg-gray-900">
+      {/* <main className="flex items-center justify-center min-h-screen bg-gray-900">
         <div className="flex flex-col items-center justify-center space-y-5">
           <Image
             src={"/assets/warning.png"}
@@ -21,12 +21,12 @@ export default function Home() {
             Es necesario renovar la suscripción
           </p>
         </div>
-      </main>
-      {/* <Header />
+      </main> */}
+      <Header />
       <main>
         <Body />
       </main>
-      <Footer /> */}
+      <Footer />
     </>
   );
 }
